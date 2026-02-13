@@ -116,7 +116,7 @@
   "MENU_BATCH_PRE": "添加选中条目前缀",
   "MENU_BATCH_SUF": "添加选中条目后缀",
   "MENU_CLEAR_TRANSLATION": "清除选中的翻译",
-  "MENU_EXPORT_TAB": "导出当前标签页条目",
+  "MENU_EXPORT_TAB": "导出选中标签页条目",
   "MENU_EXPORT_ALL": "导出所有标签页条目",
   "MENU_ADD_CATEGORY": "添加分类",
   "MENU_CLEAR_CATEGORY": "清空分类",
