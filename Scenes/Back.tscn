@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://d5m9n0o1p2q3r4s5"]
+
+[ext_resource type="Script" path="res://Scripts/UI/Back.cs" id="1"]
+
+[node name="Back" type="Window"]
+initial_position = "Centered"
+size = Vector2i(800, 600)
+script = ExtResource("1")
