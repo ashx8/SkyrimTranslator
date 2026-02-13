@@ -1896,16 +1896,41 @@ namespace SkyrimModTranslator.UI
         {
             if (_currentProject == null) return;
 
-            int currentTabIdx = _tabs.CurrentTab;
-            var currentScroll = _tabs.GetChild<ScrollContainer>(currentTabIdx);
-            var categoryName = currentScroll.GetMeta("raw_category_name").AsString();
-            
             var list = new List<Data.Item>();
-            foreach (var item in _currentProject.Items)
+            
+            //导出所有选中的标签页内容
+            if (_selectedTabIndices.Count > 0)
             {
-                if (GetCategoryForRecord(item.Type) == categoryName)
+                foreach (int tabIndex in _selectedTabIndices)
                 {
-                    list.Add(item);
+                    if (tabIndex >= 0 && tabIndex < _tabs.GetTabCount())
+                    {
+                        var scroll = _tabs.GetChild<ScrollContainer>(tabIndex);
+                        var categoryName = scroll.GetMeta("raw_category_name").AsString();
+                        
+                        foreach (var item in _currentProject.Items)
+                        {
+                            if (GetCategoryForRecord(item.Type) == categoryName)
+                            {
+                                list.Add(item);
+                            }
+                        }
+                    }
+                }
+            }
+            else
+            {
+                //如果没有选中标签页，只导出当前标签页
+                int currentTabIdx = _tabs.CurrentTab;
+                var currentScroll = _tabs.GetChild<ScrollContainer>(currentTabIdx);
+                var categoryName = currentScroll.GetMeta("raw_category_name").AsString();
+                
+                foreach (var item in _currentProject.Items)
+                {
+                    if (GetCategoryForRecord(item.Type) == categoryName)
+                    {
+                        list.Add(item);
+                    }
                 }
             }
             
