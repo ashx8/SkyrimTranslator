@@ -132,7 +132,7 @@
   "COLUMN_CATEGORY": "分类",
   "COLUMN_FIELDS": "字段",
   "STATUS_UNTRANSLATED": "[未翻译]",
-  "STATUS_IMPORT_OK": "成功从外部文件同步了 {0} 个条目。",
+  "STAT_IMPORT_OK": "成功从外部导入了 {0} 个条目。",
   "STAT_BATCH_OK": "成功处理 {0} 个条目",
   "STAT_CLEARED": "已清空 {0} 个选中项的翻译",
   "DROP_TIP": "请拖拽Mod文件 (.esp/.esm/.esl) 开始翻译",
