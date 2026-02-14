@@ -216,7 +216,7 @@ namespace SkyrimModTranslator.UI
             _btnDist.CustomMinimumSize = new Vector2(100, 40);
             titleBar.AddChild(_btnDist);
 
-            _btnBackup.Text = L.T("BTN_BACKUP_NEW");
+            _btnBackup.Text = L.T("BTN_BACKUP");
             _btnBackup.CustomMinimumSize = new Vector2(100, 40);
             titleBar.AddChild(_btnBackup);
 
@@ -468,7 +468,7 @@ namespace SkyrimModTranslator.UI
         {
             _btnOpen.Text = L.T("BTN_OPEN");
             _btnSave.Text = L.T("BTN_SAVE");
-            _btnBackup.Text = L.T("BTN_BACKUP_NEW");
+            _btnBackup.Text = L.T("BTN_BACKUP");
             _btnDist.Text = L.T("BTN_GLOSSARY");
             _btnImport.Text = L.T("BTN_IMPORT_TRANSLATION");
             if (_btnSettings != null)
@@ -1776,24 +1776,23 @@ namespace SkyrimModTranslator.UI
         }
 
         private void OnBackupRequest()
+    {
+        if (_currentProject == null) return;
+
+        if (_backupWin == null || !IsInstanceValid(_backupWin))
         {
-            if (_currentProject == null) return;
+            _backupWin = new Back(_currentProject.Path);
+            GetTree().Root.AddChild(_backupWin);
+            
+            _backupWin.Restored += OnBackupRestored;
 
-            if (_backupWin == null || !IsInstanceValid(_backupWin))
-            {
-                _backupWin = new Back(_currentProject.Path);
-                GetTree().Root.AddChild(_backupWin);
-                
-                _backupWin.Restored += OnBackupRestored;
-
-                _backupWin.Show();
-                Pos.RestoreWindowState(_backupWin);
-            }
-            else
-            {
-                _backupWin.GrabFocus();
-            }
+            _backupWin.Show();
         }
+        else
+        {
+            _backupWin.GrabFocus();
+        }
+    }
 
         private void OnBackupRestored()
         {
@@ -2163,7 +2162,7 @@ namespace SkyrimModTranslator.UI
         {
             if (_btnOpen != null) _btnOpen.Text = L.T("BTN_OPEN");
             if (_btnSave != null) _btnSave.Text = L.T("BTN_SAVE");
-            if (_btnBackup != null) _btnBackup.Text = L.T("BTN_BACKUP_NEW");
+            if (_btnBackup != null) _btnBackup.Text = L.T("BTN_BACKUP");
             if (_btnDist != null) _btnDist.Text = L.T("BTN_GLOSSARY");
             if (_btnImport != null) _btnImport.Text = L.T("BTN_IMPORT_TRANSLATION");
             if (_btnSettings != null) _btnSettings.Text = L.T("BTN_SETTINGS");
