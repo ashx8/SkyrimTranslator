@@ -1,0 +1,682 @@
+{
+  "GMST": [
+    "FULL",
+    "DATA"
+  ],
+  "SNCT": [
+    "FULL"
+  ],
+  "TXST": [
+    "FULL"
+  ],
+  "GLOB": [
+    "FULL"
+  ],
+  "CLAS": [
+    "FULL",
+    "DESC"
+  ],
+  "FACT": [
+    "FULL"
+  ],
+  "HDPT": [
+    "FULL"
+  ],
+  "EYES": [
+    "FULL"
+  ],
+  "RACE": [
+    "FULL",
+    "DESC"
+  ],
+  "SOUN": [
+    "FULL"
+  ],
+  "ASPC": [
+    "FULL"
+  ],
+  "MGEF": [
+    "FULL",
+    "DESC",
+    "DNAM"
+  ],
+  "LTEX": [
+    "FULL"
+  ],
+  "ENCH": [
+    "FULL",
+    "DESC"
+  ],
+  "SPEL": [
+    "FULL",
+    "DESC"
+  ],
+  "SCRL": [
+    "FULL",
+    "DESC"
+  ],
+  "ACTI": [
+    "FULL",
+    "RNAM"
+  ],
+  "TACT": [
+    "FULL"
+  ],
+  "APPA": [
+    "FULL",
+    "DESC"
+  ],
+  "ARMO": [
+    "FULL",
+    "DESC"
+  ],
+  "BOOK": [
+    "FULL",
+    "DESC",
+    "CNAM"
+  ],
+  "CONT": [
+    "FULL"
+  ],
+  "DOOR": [
+    "FULL"
+  ],
+  "INGR": [
+    "FULL",
+    "DESC"
+  ],
+  "LIGH": [
+    "FULL"
+  ],
+  "MISC": [
+    "FULL"
+  ],
+  "STAT": [
+    "FULL"
+  ],
+  "MSTT": [
+    "FULL"
+  ],
+  "GRAS": [
+    "FULL"
+  ],
+  "TREE": [
+    "FULL"
+  ],
+  "FLOR": [
+    "FULL",
+    "RNAM"
+  ],
+  "REFR": [
+    "FULL"
+  ],
+  "FURN": [
+    "FULL"
+  ],
+  "WEAP": [
+    "FULL",
+    "DESC"
+  ],
+  "AMMO": [
+    "FULL",
+    "DESC"
+  ],
+  "NPC_": [
+    "FULL"
+  ],
+  "KEYM": [
+    "FULL"
+  ],
+  "ALCH": [
+    "FULL",
+    "DESC"
+  ],
+  "IDLM": [
+    "FULL"
+  ],
+  "COBJ": [
+    "FULL"
+  ],
+  "HAZD": [
+    "FULL"
+  ],
+  "SLGM": [
+    "FULL",
+    "DESC"
+  ],
+  "LVLI": [
+    "FULL"
+  ],
+  "LVLN": [
+    "FULL"
+  ],
+  "LVLC": [
+    "FULL"
+  ],
+  "WTHR": [
+    "FULL"
+  ],
+  "CLMT": [
+    "FULL"
+  ],
+  "SPGD": [
+    "FULL"
+  ],
+  "RFCT": [
+    "FULL"
+  ],
+  "REGN": [
+    "FULL"
+  ],
+  "NAVI": [
+    "FULL"
+  ],
+  "CELL": [
+    "FULL"
+  ],
+  "WRLD": [
+    "FULL"
+  ],
+  "DIAL": [
+    "FULL"
+  ],
+  "QUST": [
+    "FULL",
+    "NNAM",
+    "CNAM"
+  ],
+  "IDLE": [
+    "FULL"
+  ],
+  "PACK": [
+    "FULL"
+  ],
+  "CSTY": [
+    "FULL"
+  ],
+  "LSCR": [
+    "FULL",
+    "DESC"
+  ],
+  "LVSP": [
+    "FULL"
+  ],
+  "ANIO": [
+    "FULL"
+  ],
+  "WATR": [
+    "FULL"
+  ],
+  "EFSH": [
+    "FULL"
+  ],
+  "EXPL": [
+    "FULL"
+  ],
+  "DEBR": [
+    "FULL"
+  ],
+  "IMGS": [
+    "FULL"
+  ],
+  "IMAD": [
+    "FULL"
+  ],
+  "FLST": [
+    "FULL"
+  ],
+  "PERK": [
+    "FULL",
+    "DESC",
+    "EPFD"
+  ],
+  "BPTD": [
+    "FULL"
+  ],
+  "ADDN": [
+    "FULL"
+  ],
+  "AVIF": [
+    "FULL",
+    "DESC"
+  ],
+  "CAMS": [
+    "FULL"
+  ],
+  "CPTH": [
+    "FULL"
+  ],
+  "VTYP": [
+    "FULL"
+  ],
+  "MATT": [
+    "FULL"
+  ],
+  "IPCT": [
+    "FULL"
+  ],
+  "IPDS": [
+    "FULL"
+  ],
+  "ARMA": [
+    "FULL"
+  ],
+  "ECZN": [
+    "FULL"
+  ],
+  "LCTN": [
+    "FULL"
+  ],
+  "MESG": [
+    "FULL",
+    "ITXT",
+    "DTXT",
+    "DESC"
+  ],
+  "WOOP": [
+    "FULL"
+  ],
+  "LENS": [
+    "FULL"
+  ],
+  "VOLI": [
+    "FULL"
+  ],
+  "BNDS": [
+    "FULL"
+  ],
+  "DMGT": [
+    "FULL",
+    "DESC"
+  ],
+  "TRNS": [
+    "FULL"
+  ],
+  "SCOL": [
+    "FULL"
+  ],
+  "KYWD": [
+    "FULL"
+  ],
+  "LCRT": [
+    "FULL"
+  ],
+  "CHAL": [
+    "FULL",
+    "DESC"
+  ],
+  "SHOU": [
+    "FULL",
+    "DESC"
+  ],
+  "INFO": [
+    "NAM1",
+    "RNAM"
+  ],
+  "TES4": [
+    "CNAM",
+    "SNAM"
+  ],
+  "OMOD": [
+    "FULL",
+    "DESC"
+  ],
+  "TERM": [
+    "FULL",
+    "DESC"
+  ],
+  "NOTE": [
+    "FULL",
+    "DESC"
+  ],
+  "IMOD": [
+    "FULL",
+    "DESC"
+  ],
+  "SCEN": [
+    "FULL"
+  ],
+  "LGTM": [
+    "FULL"
+  ],
+  "REPU": [
+    "FULL"
+  ],
+  "RADS": [
+    "FULL",
+    "DESC"
+  ],
+  "DEHY": [
+    "FULL",
+    "DESC"
+  ],
+  "HUNG": [
+    "FULL",
+    "DESC"
+  ],
+  "SLPD": [
+    "FULL",
+    "DESC"
+  ],
+  "CMNY": [
+    "FULL"
+  ],
+  "CHIP": [
+    "FULL"
+  ],
+  "CCRD": [
+    "FULL"
+  ],
+  "CDCK": [
+    "FULL"
+  ],
+  "CSNO": [
+    "FULL"
+  ],
+  "HAIR": [
+    "FULL"
+  ],
+  "RCPE": [
+    "FULL",
+    "DESC"
+  ],
+  "RCCT": [
+    "FULL"
+  ],
+  "CREA": [
+    "FULL"
+  ],
+  "PGRE": [
+    "FULL"
+  ],
+  "PMIS": [
+    "FULL"
+  ],
+  "ALOC": [
+    "FULL"
+  ],
+  "AMEF": [
+    "FULL",
+    "DESC"
+  ],
+  "MSET": [
+    "FULL"
+  ],
+  "LSCT": [
+    "FULL"
+  ],
+  "MAPM": [
+    "FULL"
+  ],
+  "CMPO": [
+    "FULL"
+  ],
+  "MICN": [
+    "FULL"
+  ],
+  "AACT": [
+    "FULL"
+  ],
+  "AAMD": [
+    "FULL"
+  ],
+  "AAPD": [
+    "FULL"
+  ],
+  "AFFE": [
+    "FULL",
+    "DESC"
+  ],
+  "AMBS": [
+    "FULL"
+  ],
+  "AMDL": [
+    "FULL"
+  ],
+  "AOPF": [
+    "FULL"
+  ],
+  "AOPS": [
+    "FULL"
+  ],
+  "AORU": [
+    "FULL"
+  ],
+  "ARTO": [
+    "FULL"
+  ],
+  "ATMO": [
+    "FULL"
+  ],
+  "AVMD": [
+    "FULL"
+  ],
+  "BIOM": [
+    "FULL"
+  ],
+  "BMMO": [
+    "FULL"
+  ],
+  "BMOD": [
+    "FULL"
+  ],
+  "CLDF": [
+    "FULL"
+  ],
+  "CLFM": [
+    "FULL"
+  ],
+  "CNDF": [
+    "FULL"
+  ],
+  "COLL": [
+    "FULL"
+  ],
+  "CUR3": [
+    "FULL"
+  ],
+  "CURV": [
+    "FULL"
+  ],
+  "DFOB": [
+    "FULL"
+  ],
+  "DLBR": [
+    "FULL"
+  ],
+  "DOBJ": [
+    "FULL"
+  ],
+  "EFSQ": [
+    "FULL"
+  ],
+  "EQUP": [
+    "FULL"
+  ],
+  "FOGV": [
+    "FULL"
+  ],
+  "FORC": [
+    "FULL"
+  ],
+  "GBFM": [
+    "FULL"
+  ],
+  "GBFT": [
+    "FULL"
+  ],
+  "GCVR": [
+    "FULL"
+  ],
+  "INNR": [
+    "FULL"
+  ],
+  "IRES": [
+    "FULL"
+  ],
+  "KSSM": [
+    "FULL"
+  ],
+  "LAYR": [
+    "FULL"
+  ],
+  "LGDI": [
+    "FULL"
+  ],
+  "LMSW": [
+    "FULL"
+  ],
+  "LVSC": [
+    "FULL"
+  ],
+  "MAAM": [
+    "FULL"
+  ],
+  "MOVT": [
+    "FULL"
+  ],
+  "MRPH": [
+    "FULL"
+  ],
+  "MTPT": [
+    "FULL"
+  ],
+  "MUSC": [
+    "FULL"
+  ],
+  "MUST": [
+    "FULL"
+  ],
+  "NOCM": [
+    "FULL"
+  ],
+  "OSWP": [
+    "FULL"
+  ],
+  "OTFT": [
+    "FULL"
+  ],
+  "OVIS": [
+    "FULL"
+  ],
+  "PCBN": [
+    "FULL"
+  ],
+  "PCCN": [
+    "FULL"
+  ],
+  "PCMT": [
+    "FULL"
+  ],
+  "PDCL": [
+    "FULL"
+  ],
+  "PKIN": [
+    "FULL"
+  ],
+  "PMFT": [
+    "FULL"
+  ],
+  "PNDT": [
+    "FULL"
+  ],
+  "PSDC": [
+    "FULL"
+  ],
+  "PTST": [
+    "FULL"
+  ],
+  "REVB": [
+    "FULL"
+  ],
+  "RFGP": [
+    "FULL"
+  ],
+  "RSGD": [
+    "FULL"
+  ],
+  "RSPJ": [
+    "FULL"
+  ],
+  "SDLT": [
+    "FULL"
+  ],
+  "SECH": [
+    "FULL"
+  ],
+  "SFBK": [
+    "FULL"
+  ],
+  "SFPC": [
+    "FULL"
+  ],
+  "SFPT": [
+    "FULL"
+  ],
+  "SFTR": [
+    "FULL"
+  ],
+  "SPCH": [
+    "FULL"
+  ],
+  "STAG": [
+    "FULL"
+  ],
+  "STBH": [
+    "FULL"
+  ],
+  "STDT": [
+    "FULL"
+  ],
+  "STMP": [
+    "FULL"
+  ],
+  "STND": [
+    "FULL"
+  ],
+  "SUNP": [
+    "FULL"
+  ],
+  "TMLM": [
+    "FULL",
+    "BTXT",
+    "ITXT",
+    "UNAM"
+  ],
+  "TODD": [
+    "FULL"
+  ],
+  "TRAV": [
+    "FULL"
+  ],
+  "WBAR": [
+    "FULL"
+  ],
+  "WKMF": [
+    "FULL"
+  ],
+  "WTHS": [
+    "FULL"
+  ],
+  "WWED": [
+    "FULL"
+  ],
+  "ZOOM": [
+    "FULL"
+  ],
+  "FFKW": [
+    "FULL"
+  ],
+  "LVLP": [
+    "FULL"
+  ],
+  "LVLB": [
+    "FULL"
+  ],
+  "BOIM": [
+    "FULL"
+  ],
+  "PROJ": [
+    "FULL"
+  ]
+}

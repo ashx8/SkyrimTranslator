@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5y80h2v11gjd"]
+
+[ext_resource type="Script" uid="uid://erdd4fxtdjia" path="res://Scripts/UI/DictW.cs" id="1_hkxpr"]
+
+[node name="Dist" type="Window"]
+oversampling_override = 1.0
+position = Vector2i(0, 36)
+size = Vector2i(900, 700)
+script = ExtResource("1_hkxpr")

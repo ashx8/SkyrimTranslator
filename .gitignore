@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+android/
+.mono/
+.vs/
+*.csproj.old*
+*.suo
+*.user
+export_presets.cfg

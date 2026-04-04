@@ -1,0 +1,36 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[animation]
+
+compatibility/default_parent_skeleton_in_mesh_instance_3d=true
+
+[application]
+
+config/name="SkyrimTranslator"
+config/version="0.1"
+run/main_scene="res://Scenes/Main.tscn"
+config/features=PackedStringArray("4.6", "C#", "GL Compatibility")
+boot_splash/bg_color=Color(0.14117648, 0.14117648, 0.14117648, 0)
+boot_splash/image="uid://bkx8d2du2727t"
+config/windows_native_icon="res://icon.ico"
+
+[display]
+
+window/subwindows/embed_subwindows=false
+
+[dotnet]
+
+project/assembly_name="SkyrimTranslator"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
